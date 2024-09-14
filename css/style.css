@@ -1,0 +1,27 @@
+body {
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+section {
+    height: 500px;
+    width: 100%;
+    background-color: aqua;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

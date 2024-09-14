@@ -1,19 +1,63 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- <link rel="stylesheet" href="css/style.css"> -->
         <meta charset="UTF-8" />
         <title>BesT Website</title>
+
+        <style>
+            body {
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                color : #028700;
+            }
+
+            h1 {                
+                text-align: center;
+                font-size: 48px;
+                font-weight: 200;
+                padding: 20px;
+                border: 3px solid #000000;
+            }
+            p#lorem {
+                font-size: 16px;
+                text-align: center;
+                color: black;
+            }
+            div#box_model {
+                width: 200px; 
+                height: 200px; 
+                background-color: yellow; 
+                margin: 20px; 
+                padding: 10px; 
+                border: 2px solid black;
+                border-radius: 16px;
+                margin: 30px;
+                border: 10px solid black;
+                border-top-color: blue;
+
+            }
+        </style>
     </head>
-    <body>
-        <header>
+    <body style="background-color: turquoise;">
+        <header style="background-color: antiquewhite;">
         <h1>Welcome to the BesT Website</h1>
         <nav>
            <a href="https://www.google.com" target="_blank">Google</a>
+           <a href="index2.html">Next Page</a>
         </nav>
     </header>
-    <section>
+    
+    <div id="box_model">
+        <h3>Box Model</h3>
+        <p>This is an example of the box model in HTML.</p>
+    </div>
+
+    <section style="font-size: 20px;">
         <h2>About Me</h2>
         <h2>Suphawit Wanlaung</h2>
+        <p id="lorem">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa a modi vero deleniti iusto aut tempora tempore recusandae praesentium voluptatum!
+        </p>
         <ul>
             <li>Nickname: BesT</li>
             <li>Age: 21</li>
